@@ -1,1 +1,30 @@
-#f5f5f5
+/* This document is property of Chicken Studios
+Copyright (c) 2019 Chicken Studios */
+/* #f5f5f5 */
+/* Reset semantic elements */
+
+body {
+  display: block;
+}
+
+main, article, section {
+  display: block;
+}
+
+/* Buttons */
+
+.btn, .box-btn {
+  margin: .25em;
+  padding: .25em;
+  background-color: #e5e5e5;
+  border-color: .125em solid #000;
+  color: #000;
+  box-shadow: 0em 0em 0em .125em #a0a0a0 inset;
+}
+
+/* Button states */
+
+.btn:disabled, .disabled {
+  background-color: #f5f5f5;
+  border: .125em solid #404040;
+}
